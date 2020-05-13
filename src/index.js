@@ -7,7 +7,7 @@ const MyComponent = props => {
 }
 
 // 组件的产出是 VNode
-const prevVnode = MyComponent({ title: 'prev' })
+const prevVnode = MyComponent({ title: 'hello' })
 
 // 将 VNode 渲染成真实 DOM
 patch(document.getElementById('app'), prevVnode)
